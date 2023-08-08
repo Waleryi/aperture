@@ -157,7 +157,7 @@ h1 {
   font-size: 54px;
   line-height: 1.1;
 }
-
+/* ----Items---- */
 .items {
   color: var(--white);
   /* font-size: 12px; */
@@ -169,6 +169,13 @@ h1 {
   right: 40px;
   vertical-align: top;
 }
+
+.sub-items {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
 
 /*---Section-2--Cards */
 
