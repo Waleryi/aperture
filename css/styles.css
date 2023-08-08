@@ -449,6 +449,7 @@ p {
 
 .section-6 {
   height: 500px;
+  max-width: 100vw;
 }
 
 .sec-6-about h4 {
@@ -512,7 +513,7 @@ p {
 
 /* ---Section-8--- */
 .section-8 {
-  height: 414px;
+  max-height: 414px;
   background-color: var(--black);
   color: var(--white);
   text-align: center;
@@ -524,7 +525,7 @@ p {
 .section-8 h4 {
   font-size: 40px;
   line-height: 1.05;
-  min-width: 540px;
+  /* min-width: 540px; */
   padding: 114px 0 15px;
 }
 
@@ -545,7 +546,6 @@ p {
   margin: 0 auto 100px;
 }
 
-
 .footer-content {
   max-width: 1168px;
   padding: 100px 136px 0;
@@ -561,7 +561,7 @@ p {
 .footer-sec-1-discr p {
   font-size: 13px;
   line-height: 1.54;
-  padding-top: 20px;
+  padding: 20px 15px 25px 0;
 }
 .footer-lists {
   display: flex;
@@ -794,13 +794,10 @@ p {
     width: 330px;
     height: 52px;
   }
-
-
 }
 
 /* ---MAX-768px--- */
 @media screen and (max-width: 768px) {
-
   .sec-1-contain p {
     padding: 0 8px;
   }
@@ -834,27 +831,182 @@ p {
   }
 
   .footer-content {
-    max-width: 100vw;
-    padding: 15px 15px 0;
+    padding: 15px 8px 0;
     margin: 0 auto;
   }
 
-
-
+  .section-8 h4 {
+    font-size: 32px;
+    padding: 114px 20px 15px;
+  }
 }
 
 /* ---MAX-576px--- */
 @media screen and (max-width: 576px) {
-  /* .header-content svg {
+  .header-content svg {
     min-width: 80px;
     width: 80px;
-  } */
+  }
+
+  .sec-1-about {
+    color: var(--white);
+  }
+  h1 {
+    font-size: 38px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .section-2 h2 {
+    font-size: 28px;
+    margin: 0;
+  }
+  .section-2 h3 {
+    font-size: 16px;
+  }
+  .items {
+    display: flex;
+    font-size: 11px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .section-2 {
+    padding: 60px 16px 20px;
+  }
+  .section-2 .card:nth-child(1) {
+    background-position: center;
+  }
+  .section-2 .card:nth-child(2) {
+    background-position: center;
+  }
+  .section-2 .card:nth-child(3) {
+    background-position: center;
+  }
+  .section-2 .card:nth-child(4) {
+    background-position: center;
+  }
+
+  .sec-3-description {
+    margin: 0 auto;
+    padding-left: 12px;
+  }
+
+  .sec-4-description {
+    padding: 0 10px;
+  }
+
+  .sec-4-description h4 {
+    font-size: 18px;
+    line-height: 1.14;
+    padding: 0 0 14px;
+  }
+
+  .sec-4-description p {
+    padding: 0 0 10px;
+  }
+
+  .section-4 .icon-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 5px 5px 4px;
+    min-width: 112px;
+    max-width: 152px;
+    font-size: 12px;
+  }
+
+  .sec-5-description {
+    margin: 0 auto;
+    padding-left: 12px;
+  }
+
+  .sec-6-about h4 {
+    font-size: 18px;
+    padding-top: 25px;
+  }
+
+  .sec-6-about p {
+    font-size: 12px;
+    padding: 8px 0 0;
+  }
+
+  .sec-6-items {
+    gap: 50px;
+    align-items: center;
+    padding: 20px 80px;
+    flex-wrap: wrap;
+  }
+
+  .sec-7-description {
+    margin: 0 auto;
+    padding-left: 12px;
+  }
+  .section-8 {
+    margin: 0 auto;
+    max-height: 80vh;
+    max-width: 576px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .section-8 h4 {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .section-8 p {
+    font-size: 14px;
+    padding: 25px 15px 15px;
+  }
+  .footer-sec-1 {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .footer-sec-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-sec-2-descr h5 {
+    padding-top: 25px;
+  }
+  .footer-sec-2-descr h5 {
+    margin: 0 auto;
+  }
+
+  .footer-sec-2-descr p {
+    text-align: center;
+  }
+
+  .footer-check {
+    margin: 25px;
+    width: 250px;
+  }
+  .white-line {
+    height: 2px;
+    width: 95%;
+    background-color: var(--white);
+  }
+
+  .footer-icons {
+    padding: 0 15px;
+  }
 }
 
 /* ---MAX-320px--- */
-@media screen and (max-width: 320px) {
-  /* .header-content svg {
-    min-width: 80px;
-    width: 80px;
-  } */
+@media screen and (max-width: 321px) {
+  header {
+    max-width: 320px;
+  }
+  main {
+    max-width: 320px;
+  }
+
 }
