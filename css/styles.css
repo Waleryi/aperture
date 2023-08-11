@@ -203,7 +203,6 @@ body {
   top: 1px;
 }
 
-
 /* ----HEADER BUTTON-End---- */
 /* --HEADER--BURGER--Start-- */
 .link-mobile {
@@ -273,7 +272,6 @@ body {
   width: 0;
   height: 100%;
   transition: all 0.7s;
-  
 }
 
 .link-btn:hover::before {
@@ -321,7 +319,7 @@ main {
 .section-1 {
   background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%),
     url(../images/section-1-item.jpg), lightgray 50%;
-  background-repeat: no-repeat center;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   width: auto;
   min-height: 100vh;
@@ -434,25 +432,25 @@ p {
 
 .section-2 .card:nth-child(1) {
   background: url(../images/card-item-1.jpg);
-  background-repeat: no-repeat center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .section-2 .card:nth-child(2) {
   background: url(../images/card-item-2.jpg);
-  background-repeat: no-repeat center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .section-2 .card:nth-child(3) {
   background: url(../images/card-item-3.jpg);
-  background-repeat: no-repeat center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .section-2 .card:nth-child(4) {
   background: url(../images/card-item-4.jpg);
-  background-repeat: no-repeat center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -532,7 +530,7 @@ p {
 /* ----Section-3-Fuji---- */
 .section-3 {
   background: url(../images/section-3-item.jpg), lightgray 50%;
-  background-repeat: no-repeat center;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   width: auto;
   min-height: 100vh;
@@ -611,7 +609,7 @@ p {
 
 .sec-4-image {
   background: url(../images/section-4-item.jpg), lightgray 50%;
-  background-repeat: no-repeat center;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 540px;
   width: 50%;
@@ -622,7 +620,7 @@ p {
 
 .section-5 {
   background: url(../images/section-5-item.jpg), lightgray 50%;
-  background-repeat: no-repeat center;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   width: auto;
   min-height: 100vh;
@@ -688,7 +686,7 @@ p {
 /* --- Section -7 - Mountain--- */
 .section-7 {
   background: url(../images/section-7-item.jpg), lightgray 50%;
-  background-repeat: no-repeat center;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   width: auto;
   height: 600px;
@@ -976,14 +974,14 @@ p {
   }
   .section-1 {
     background-origin: border-box;
-    background-repeat: no-repeat center;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: auto;
     min-height: 80vh;
   }
   .section-3 {
-    background-repeat: no-repeat center;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: auto;
@@ -992,12 +990,12 @@ p {
 
   .sec-4-image {
     background-origin: border-box;
-    background-repeat: no-repeat center;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
   .section-5 {
-    background-repeat: no-repeat center;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: auto;
@@ -1007,7 +1005,7 @@ p {
     padding-top: 60px;
   }
   .section-7 {
-    background-repeat: no-repeat center;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: auto;
@@ -1056,10 +1054,6 @@ p {
     align-items: center;
     padding: 40px 46px;
     flex-wrap: wrap;
-  }
-
-  .footer {
-    height: none;
   }
 
   .footer-content {
